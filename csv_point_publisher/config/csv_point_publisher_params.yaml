@@ -1,0 +1,8 @@
+csv_point_publisher:
+  ros__parameters:
+    blue_csv_file_path: "/home/filippo/FormulaCSVPointsPublisher/csv_point_publisher/blue_cones.csv"
+    red_csv_file_path: "/home/filippo/FormulaCSVPointsPublisher/csv_point_publisher/yellow_cones.csv"
+    publish_topic: "csv/cones_positions"
+    publish_frequency: 2  # Frequency in Hz
+
+
